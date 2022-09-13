@@ -1,0 +1,71 @@
+body {
+    background-color: lightgray;
+
+}
+.bar {
+    background-color: coral;
+    padding: 40px;
+    
+}
+.navy {
+    float:right;
+    font-size: 30px;
+}
+.home {
+    text-decoration: none;
+    margin: 20px;
+    color: whitesmoke;
+}
+#title {
+    font-size: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px gray;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+a:hover {
+    color: black;
+    font-size: 40px;
+}
+p {
+    background-color:rgb(255, 195, 172);
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bttn {
+    text-align: center;
+}
+button {
+    font-size: 30px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #ff8250;
+    color: ghostwhite;
+    outline: #ff8250;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+button:hover {
+    background-color: #f7703b;
+}
+button:active {
+    background-color: #f7703b;
+    transform: translateY(5px);
+    
+}
+@keyframes colorchange {
+    0% {
+        color: ghostwhite;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: gray;
+    }
+    100% {
+        color: ghostwhite;
+    }
+}

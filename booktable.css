@@ -1,0 +1,53 @@
+table {
+    border:1px solid salmon;
+    border-collapse: collapse;
+    height: 20px;
+    width: 100%;
+}
+th {
+    border:1px solid salmon;
+    padding: 10px;
+    color: ghostwhite;
+    background-color: black;
+    font-size: 30px;
+}
+td {
+    border:1px solid salmon;
+    padding: 10px;
+    font-size: 25px;
+
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+body {
+    background-color: azure;
+
+}
+.bar {
+    background-color: coral;
+    padding: 40px;
+    
+}
+.navy {
+    float:right;
+    font-size: 30px;
+}
+.home {
+    text-decoration: none;
+    margin: 20px;
+    color: whitesmoke;
+}
+#title {
+    font-size: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px gray;
+}
+a:hover {
+    color: black;
+    font-size: 40px;
+}
