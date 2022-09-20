@@ -1,0 +1,51 @@
+body {
+    background-color: darkslategray;
+    color: ghostwhite;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+}
+label {
+    font-size: 25px;
+    text-align: left;
+}
+input {
+    padding: 15px;
+    width: 50%;
+    border: darkslategray;
+    border-radius: 5px;
+}
+.form {
+    border-radius: 5px;
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+.col-25 {
+    float: left 25%;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left 25%;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.button {
+    background-color:cadetblue;
+    font-size:30px;
+    color: ghostwhite;
+    border-color: ghostwhite;    
+    
+}
+.button:hover {
+    background-color: rgb(63, 93, 94);
+    box-shadow: 3px 3px 3px rgb(76, 119, 76);
+    border-color: ghostwhite;    
+}
